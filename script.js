@@ -47,4 +47,21 @@ while (newArray.length < 3){
     }
 }
 
-console.log(newArray);
+console.table(newArray);
+
+
+// SNACK 4
+
+const intArray = [];
+
+let k = 0;
+const max = 100;
+
+while (k < max){
+    intArray.push(k);
+    if(k % 2){
+        console.log(k);
+    }
+    k++;
+}
+// console.log(intArray);
