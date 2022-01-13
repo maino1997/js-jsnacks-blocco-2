@@ -66,4 +66,33 @@ while (k < max){
     k++;
 }
 // console.log(intArray);
-console.log(total);
+console.log(`La somma degli interi in posizione dispari è ${total}`);
+
+
+// SNACK 5
+
+const bigArray = [];
+const smallArray = [];
+
+let a = 0;
+let b = 0;
+const bigMax = 30;
+const smallMax = 15;
+
+while (a < bigMax){
+    bigArray.push(a);
+    a++;
+}
+
+while (b < smallMax){
+    smallArray.push(b);
+    b++;
+}
+
+while (smallArray.length < bigArray.length){
+    const random = Math.floor(Math.random() * 15);
+    smallArray.push(random);
+}
+
+console.log(`la lunghezza dell' array più piccolo ora è ${smallArray.length}`);
+console.log(`la lunghezza dell' array più grande ora è ${smallArray.length}`);
