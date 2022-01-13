@@ -63,3 +63,34 @@ printBtn.addEventListener('click' , function (){
 
 // SNACK 3 BONUS
 
+const userIndex = document.getElementById("number-3");
+console.log(userIndex);
+const showDisplay = document.getElementById("show-display");
+const imBtn = document.getElementById("im-btn");
+const names = ["giovanni" , "giorgio", "laura" , "giorgia" ,"lucia"];
+const surnanames = ["rossi" , "verdi" , "bianchi" , "more" , "peterson" , "manganelli"];
+
+const newArray = [];
+
+let person ="";
+while (newArray.length < 3){
+    const rndIndex1 = Math.floor(Math.random() * names.length);
+    const rndIndex2 =  Math.floor(Math.random() * surnanames.length);
+    const currentName =  names[rndIndex1];
+    const currentSurname = surnanames[rndIndex2];
+
+     person = `${currentName} ${currentSurname}`;
+
+    if (!newArray.includes(person)){ 
+    newArray.push(person);
+}
+}
+console.log(newArray);
+
+imBtn.addEventListener('click' , function (){
+    const userIndexPars = parseInt(userIndex.value);
+    console.log(userIndexPars);
+    showDisplay.innerText = newArray[userIndexPars];
+});
+
+
