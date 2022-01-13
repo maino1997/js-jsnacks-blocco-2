@@ -28,6 +28,11 @@ if ( inputNumber % 2){
 
 // SNACK 3
 
+const names = ["giovanni" , "giorgio", "laura" , "giorgia" ,"lucia"];
+const surnanames = ["rossi" , "verdi" , "bianchi" , "more" , "peterson" , "manganelli"];
+
+const newArray = [];
+
 while (newArray.length < 3){
     const rndIndex1 = Math.floor(Math.random() * names.length);
     const rndIndex2 =  Math.floor(Math.random() * surnanames.length);
