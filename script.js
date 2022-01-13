@@ -15,6 +15,8 @@ console.log(sum);
 
 
 
+
+
 // SNACK 2
 
 const inputNumber = parseInt(prompt("inserisci un numero pari o dispari").trim());
