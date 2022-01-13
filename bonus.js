@@ -35,3 +35,15 @@ equaBtn.addEventListener('click' , function (){
     }
     displaySomma.innerText = `La somma degli elementi della lista è ${sum}`;
 });
+
+
+
+
+
+// SNACK 2 BONUS 
+
+const inNum = document.getElementById("number-2");
+const printBtn = document.getElementById("print");
+const printDisplay = document.getElementById("print-display");
+
+
