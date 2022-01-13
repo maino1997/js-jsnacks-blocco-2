@@ -55,13 +55,15 @@ console.table(newArray);
 const intArray = [];
 
 let k = 0;
-const max = 100;
+let total = 0;
+const max = 20;
 
 while (k < max){
     intArray.push(k);
     if(k % 2){
-        console.log(k);
+        total += k;
     }
     k++;
 }
 // console.log(intArray);
+console.log(total);
