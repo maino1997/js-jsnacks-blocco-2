@@ -47,3 +47,13 @@ const printBtn = document.getElementById("print");
 const printDisplay = document.getElementById("print-display");
 
 
+printBtn.addEventListener('click' , function (){
+   const utenteNum = parseInt(inNum.value);
+   
+
+   if(utenteNum % 2){
+       printDisplay.innerText = utenteNum + 1;
+   } else {
+       printDisplay.innerText = utenteNum;
+   }
+});
