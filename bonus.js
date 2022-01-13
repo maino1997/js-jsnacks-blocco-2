@@ -57,3 +57,9 @@ printBtn.addEventListener('click' , function (){
        printDisplay.innerText = utenteNum;
    }
 });
+
+
+
+
+// SNACK 3 BONUS
+
