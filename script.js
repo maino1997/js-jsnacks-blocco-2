@@ -49,7 +49,7 @@ while (newArray.length < 3){
     }
 }
 
-console.table(newArray);
+console.log(newArray);
 
 
 // SNACK 4
